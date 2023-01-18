@@ -139,11 +139,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DynamicArray.cpp" />
+    <ClCompile Include="Application.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PathfindController.cpp" />
+    <ClCompile Include="PathfindingController.cpp" />
+    <ClCompile Include="PerlinNoise.cpp" />
+    <ClCompile Include="ppm.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="DataBaseTables.h" />
+    <ClInclude Include="Defines.h" />
     <ClInclude Include="DynamicArray.h" />
+    <ClInclude Include="HashTable.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="MyMath.h" />
+    <ClInclude Include="NeuralNetwork.h" />
+    <ClInclude Include="PathfindingController.h" />
+    <ClInclude Include="PathfindNode.h" />
+    <ClInclude Include="PerlinNoise.h" />
+    <ClInclude Include="ppm.h" />
+    <ClInclude Include="Termcolor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -13,17 +13,80 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Pathfinding">
+      <UniqueIdentifier>{9e42d66b-0cf2-45ae-964a-b2a7f353174e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Timestep">
+      <UniqueIdentifier>{f1defd41-e433-439c-a843-e8c3bc4a80bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PerlinNoise">
+      <UniqueIdentifier>{e072a3e6-d261-4348-b999-56d12ddfa159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vendors">
+      <UniqueIdentifier>{93225525-b8ff-4a8c-b73c-85597ae94831}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DynamicArray.cpp">
+    <ClCompile Include="Application.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PathfindController.cpp">
+      <Filter>Source Files\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="PathfindingController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PerlinNoise.cpp">
+      <Filter>Source Files\PerlinNoise</Filter>
+    </ClCompile>
+    <ClCompile Include="ppm.cpp">
+      <Filter>Source Files\PerlinNoise</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DynamicArray.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTable.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PathfindingController.h">
+      <Filter>Source Files\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="PathfindNode.h">
+      <Filter>Source Files\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMath.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBaseTables.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise.h">
+      <Filter>Source Files\PerlinNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="ppm.h">
+      <Filter>Source Files\PerlinNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="Termcolor.h">
+      <Filter>Source Files\Vendors</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNetwork.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

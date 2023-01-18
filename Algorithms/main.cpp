@@ -1,26 +1,30 @@
-#include "DynamicArray.h"
+#pragma once
+#include "Application.h"
 
+
+// ------- Random Number ----------- //
+#include "ctime"
+#include "cstdlib"
+// --------------------------------- //
+
+
+
+
+
+
+extern Application* CreateApplication();
 
 void main()
 {
-	DynamicArray<int> IntArray = DynamicArray<int>(12);
+	// Seed srand with std::time
+	std::srand(std::time(nullptr));
 
-	IntArray.Insert(0, 5);
-	IntArray.Insert(1, 15);
-	IntArray.Insert(2, 25);
-	IntArray.Insert(3, 35);
-	IntArray.Insert(4, 45);
-	IntArray.Insert(5, 55);
-	IntArray.Insert(6, 45);
-	IntArray.Insert(7, 35);
-	IntArray.Insert(8, 25);
-	IntArray.Insert(9, 15);
 
-	IntArray.Insert(10, 125);
-	IntArray.Insert(11, 75);
-
-	IntArray.Print();
+	auto app = CreateApplication();
+	app->Run();
 
 
 }
+
+
 
